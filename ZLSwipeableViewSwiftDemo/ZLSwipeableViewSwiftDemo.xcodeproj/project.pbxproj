@@ -20,8 +20,8 @@
 		098070AF1B13E4EC00C90479 /* CustomAnimationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098070AE1B13E4EC00C90479 /* CustomAnimationDemoViewController.swift */; };
 		098070B11B13E9B900C90479 /* CustomSwipeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098070B01B13E9B900C90479 /* CustomSwipeDemoViewController.swift */; };
 		098070B31B13EDB800C90479 /* CustomDirectionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098070B21B13EDB800C90479 /* CustomDirectionDemoViewController.swift */; };
-		179604C29FFE95576E597034 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEB7EDF499F2D90A9D123AB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		78FA118955F2E3CFC6B2C8A5 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEB7EDF499F2D90A9D123AB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		179604C29FFE95576E597034 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEB7EDF499F2D90A9D123AB /* Pods.framework */; };
+		78FA118955F2E3CFC6B2C8A5 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEB7EDF499F2D90A9D123AB /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -218,7 +218,9 @@
 		09673A761AEF5B2E008C7240 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Zhixuan Lai";
 				TargetAttributes = {
 					09673A7D1AEF5B2E008C7240 = {
@@ -430,6 +432,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -497,6 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZLSwipeableViewSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -508,6 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZLSwipeableViewSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -527,6 +532,7 @@
 				);
 				INFOPLIST_FILE = ZLSwipeableViewSwiftDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSwipeableViewSwiftDemo.app/ZLSwipeableViewSwiftDemo";
 			};
@@ -543,6 +549,7 @@
 				);
 				INFOPLIST_FILE = ZLSwipeableViewSwiftDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSwipeableViewSwiftDemo.app/ZLSwipeableViewSwiftDemo";
 			};
